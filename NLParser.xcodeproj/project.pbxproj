@@ -14,6 +14,7 @@
 		FB2311CE2230FB3A00B94EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2311CC2230FB3A00B94EBE /* LaunchScreen.storyboard */; };
 		FB2311D92230FB3A00B94EBE /* NLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2311D82230FB3A00B94EBE /* NLParserTests.swift */; };
 		FB2311E42230FB3A00B94EBE /* NLParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2311E32230FB3A00B94EBE /* NLParserUITests.swift */; };
+		FBD1A1A4225AE92A002944BE /* trainer.py in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A1A3225AE92A002944BE /* trainer.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FB2311DF2230FB3A00B94EBE /* NLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2311E32230FB3A00B94EBE /* NLParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLParserUITests.swift; sourceTree = "<group>"; };
 		FB2311E52230FB3A00B94EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD1A1A3225AE92A002944BE /* trainer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = trainer.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2311C32230FB3900B94EBE /* AppDelegate.swift */,
+				FBD1A1A3225AE92A002944BE /* trainer.py */,
 				FB2311C52230FB3900B94EBE /* ViewController.swift */,
 				FB2311C72230FB3900B94EBE /* Main.storyboard */,
 				FB2311CA2230FB3A00B94EBE /* Assets.xcassets */,
@@ -231,6 +234,7 @@
 			files = (
 				FB2311CE2230FB3A00B94EBE /* LaunchScreen.storyboard in Resources */,
 				FB2311CB2230FB3A00B94EBE /* Assets.xcassets in Resources */,
+				FBD1A1A4225AE92A002944BE /* trainer.py in Resources */,
 				FB2311C92230FB3900B94EBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
